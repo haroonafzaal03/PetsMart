@@ -23,9 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/style.css",
+              "src/assets/min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/dashboard-scripts.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,20 +1,129 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Troes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="col-md-12">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="col-lg-12 col-sm-6" href="#dashboard"><img  class="responsive" ></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">            
+                <ul class="nav navbar-nav navbar-right">                  
+                  <li class="menu-drop">
+                      <div class="dropdown">
+                          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Demo Demo
+                          <span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#trips">My Requests</a></li>
+                            <li><a href="#profile">Profile</a></li>
+                            <li><a href="#change/password">Change Password</a></li>
+                            <li><a href="#logout"
+                                    onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">Logout</a></li>
+                                    <form id="logout-form" action="#logout" method="POST" style="display: none;">
+                                        <input type="hidden" name="_token" value="B8DISu106Tzvzbco1Fxp7wRNoYSSNwjtnfrlio2A">
+                                    </form>
+                          </ul>
+                        </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </nav>
+</header>
+    <div class="page-content dashboard-page">    
+        <div class="container" style="">
+            
+ <div class="col-md-2 ">
+   
+</div>            
+<div class="col-md-9">
+    <div class="dash-content">
+        <div class="row no-margin">
+            <div class="col-md-12">
+                <h4 class="page-title"></h4>
+				
+            </div>
+        </div>
+                <div class="services row no-margin">
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div  class="services-sel-box">
+                    <a href="#services/9 "class="sel-ser-link">
+                        <div class="sel-ser-img bg-img" ></div>
+                        <h3 class="sel-ser-tit" >Cat Food</h3>
+                    </a>
+                </div>
+            </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div  class="services-sel-box">
+                    <a href="#services/10 "class="sel-ser-link">
+                        <div class="sel-ser-img bg-img" ></div>
+                        <h3 class="sel-ser-tit" >Makeup</h3>
+                    </a>
+                </div>
+            </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div  class="services-sel-box">
+                    <a href="#services/11 "class="sel-ser-link">
+                        <div class="sel-ser-img bg-img" ></div>
+                        <h3 class="sel-ser-tit" >Nail Care </h3>
+                    </a>
+                </div>
+            </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div  class="services-sel-box">
+                    <a href="#services/12 "class="sel-ser-link">
+                        <div class="sel-ser-img bg-img" ></div>
+                        <h3 class="sel-ser-tit" >Skin Care</h3>
+                    </a>
+                </div>
+            </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div  class="services-sel-box">
+                    <a href="#services/13 "class="sel-ser-link">
+                        <div class="sel-ser-img bg-img" ></div>
+                        <h3 class="sel-ser-tit" >Hair Styling</h3>
+                    </a>
+                </div>
+            </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div  class="services-sel-box">
+                    <a href="#services/14 "class="sel-ser-link">
+                        <div class="sel-ser-img bg-img" ></div>
+                        <h3 class="sel-ser-tit" >Massages</h3>
+                    </a>
+                </div>
+            </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                 <div  class="services-sel-box">
+                     <a href="#"class="sel-ser-link">
+                         <div class="sel-ser-img bg-img" ></div>
+                         <h3 class="sel-ser-tit" >Mix and Match</h3>
+                     </a>
+                 </div>
+             </div>
+        </div>
+    </div>
+	
+</div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="row footer no-margin">
+        <div class="container">
+          
+        </div>
+    </div>
