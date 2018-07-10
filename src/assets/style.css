@@ -703,7 +703,7 @@
     }
     
     .pay-option h6 a.edit{
-        float: right;
+     
         display: inline-block;
         margin-top: 6px;
         font-size: 13px;
@@ -1247,9 +1247,7 @@
         transition: all 0.5s ease;
     }
     
-    #wrapper.toggled {
-        /*padding-left: 220px;*/
-    }
+ 
     
     #sidebar-wrapper {
         z-index: 1000;
@@ -1726,7 +1724,7 @@
         background-color: #fff;
         padding: 20px 10px;
         border: 1px solid #C6C6C6;
-        float: left;
+        
         border-right: none;
         text-transform: uppercase;
         font-size: 12px;
@@ -1955,9 +1953,7 @@
         background-color: #dcdcdf;
     }
     
-    .invoices-table tbody{
-        /*background-color: #fff;*/
-    }
+  
     
     .invoices-table .table>tbody>tr>td, 
     .invoices-table .table>tbody>tr>th, 
@@ -2144,10 +2140,7 @@
         margin: 50px 0;
     }
     
-    .prof-head-right{
-        /*margin-left: 30px;*/
-    }
-    
+   
     .prof-name{
         margin-top: 0;
         font-size: 25px;
@@ -2286,10 +2279,7 @@
         margin-right: 20px;
         color: #37b38b;
     }
-    
-    .manage-doc-section{
-        /*padding-top: 50px;*/
-    }
+
     
     .manage-prof-img{
         width: 80px;
@@ -2302,10 +2292,6 @@
         font-size: 14px;
         margin-bottom: 10px;
         margin-top: 10px;
-    }
-    
-    .manage-doc-section-head-right{
-        /*margin-left: 20px;*/
     }
     
     .manage-doc-section-content{
